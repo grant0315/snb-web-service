@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.timezone import datetime
 
 
 # Create your models here.
@@ -15,6 +16,7 @@ class ScrapeData(models.Model):
     name = models.CharField(max_length=100)
 
     fk_scrape_buffer = models.ForeignKey(ScrapeBuffer, on_delete=models.SET_NULL, null=True)
+    date_scraped = models.DateField(auto_now=True)
     content = models.TextField()
 
     def __str__(self):
@@ -29,6 +31,7 @@ class BertopicBuffer(models.Model):
 
 class BertopicData(models.Model):
     name = models.CharField(max_length=100)
+    date_trained = models.DateField(auto_now=True)
 
     # Must be json data to store as array
     json_topic_data = models.TextField()

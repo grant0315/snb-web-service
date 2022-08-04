@@ -1,2 +1,17 @@
 { % extends 'base_generic.html' %}
-<h1>This is where you make requests to the server to ran scrape and bert</h1>
+
+{% block content %}
+    <h1>Scrape n Bert Request Form</h1>
+
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="name" id="scrape-buffer-name">
+        <input type="date" name="date-scraped" id="date_scraped">
+        <input type="number" name="close-spider-page-count" id="close_spider_page_count">
+        <input type="text" name="css-selector" id="css_selector">
+        <input type="number" name="depth-limit" id="depth_limit">
+        <input type="text" name="json-url-list" id="json_url_list">
+    </form>
+{% endblock %}

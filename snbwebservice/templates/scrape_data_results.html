@@ -1,0 +1,7 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+    <h1>{{ scraped_data_result.name }}</h1>
+    <p><em>Date Scraped:</em> {{ scraped_data_result.date_scraped }}</p>
+    <p><em>Content:</em> {{ scraped_data_result.content }}</p>
+{% endblock %}

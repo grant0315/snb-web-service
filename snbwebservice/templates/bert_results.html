@@ -1,5 +1,9 @@
 {% extends 'base_generic.html'%}
 
 {% block content %}
-    <h1>This is where we would display bertopic data</h1>
+    <h1>{{ bert_result.name }}</h1>
+    <p><em>Date Trained:</em> {{ bert_result.date_trained }}</p>
+    <p><em>Topic Data:</em> {{ bert_result.json_topic_data }}</p>
+    <p><em>Keyword Topic Clusters:</em> {{ bert_result.keyword_topic_cluster }}</p>
+    <p><em>Scraped from:</em> <a href="/viewdata/scraped-data-results/{{ bert_result.fk_scraped_data}}"></a></p>
 {% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+    <h1>Bertopic Results</h1>
+    {% for bert_results in bertopic_results %}
+        <li><a href="/viewdata/bertopic-results/{{ bert_results.id }}/">{{ bert_results.name }}</a></li>
+    {% endfor %}
+
+    <h1>Scraped Data Results</h1>
+    {% for results in scraped_data_results %}
+        <li><a href="/viewdata/scraped-data-results/{{ results.id }}">{{ results.name }}</a></li>
+    {% endfor %}
+{% endblock %}
