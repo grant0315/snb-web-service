@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8c09887-60b0-4db6-917f-db573d7778dd" name="Changes" comment="Added viewdata application, and configured urls to redirect to viewdata index page">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/templates/bert_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/templates/scrape_data_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/templates/snb_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snbwebservice/templates/snb_results.html" afterDir="false" />
+    <list default="true" id="d8c09887-60b0-4db6-917f-db573d7778dd" name="Changes" comment="setup admin to integrate with models and make changes to sqlite database">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/snbwebservice/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/snbwebservice/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/snbwebservice/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/snbwebservice/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/templates/base_generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/templates/viewdata/bert_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/templates/viewdata/scrape_data_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/templates/viewdata/snb_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/snbrequest/templates/snb_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/viewdata/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/viewdata/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/viewdata/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/viewdata/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/viewdata/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/viewdata/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snbwebservice/viewdata/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/snbwebservice/viewdata/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659558991260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="setup admin to integrate with models and make changes to sqlite database">
+      <created>1659580291708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659580291708</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +104,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creating django project with djangoadmin startproject" />
     <MESSAGE value="Added viewdata application, and configured urls to redirect to viewdata index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added viewdata application, and configured urls to redirect to viewdata index page" />
+    <MESSAGE value="setup admin to integrate with models and make changes to sqlite database" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup admin to integrate with models and make changes to sqlite database" />
   </component>
 </project>
