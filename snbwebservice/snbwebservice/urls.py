@@ -19,7 +19,8 @@ from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('viewdata/', include('viewdata.urls'))
+    path('viewdata/', include('viewdata.urls')),
+    path('snbrequest/', include('snbrequest.urls'))
 ]
 
 # Temporary since viewdata is the only app
